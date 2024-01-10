@@ -8,11 +8,11 @@ The data are split into training (2010-2020) and test (2021-2023) sets, in order
 
 ```math
 
-y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \beta_4 y_{it-4} + \beta_5 y_{it-5} + **\beta_6 x_{i}** + \epsilon_{it}
+y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \beta_4 y_{it-4} + \beta_5 y_{it-5} + __\beta_6 x_{i}__ + \epsilon_{it}
 
 ```
 
-where $y_{it}$ denotes the number of judgments in area $i$ and year $t$, __**$x_{i}$__ refers to a vector of area fixed effects, the $\beta$ coefficients represent the model parameters to be estimated, and $epsilon_{it}$ denotes the error term.
+where $y_{it}$ denotes the number of judgments in area $i$ and year $t$, __$x_{i}$__ refers to a vector of area fixed effects, the $\beta$ coefficients represent the model parameters to be estimated, and $epsilon_{it}$ denotes the error term.
 
 Source:
 (1) https://eur-lex.europa.eu/browse/directories/new-case-law.html
