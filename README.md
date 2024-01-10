@@ -7,7 +7,9 @@ The focus here are preliminary reference judgments (Article 267 TFEU) between 20
 The data are split into training (2010-2020) and test (2021-2023) sets, in order to validate model predictions against the case-law development in recent years. The model estimates up to five lags in order to predict the volume of preliminary rulings in the following year:
 
 ```math
-y_i_i = \beta
+
+y_i 
+
 ```
 
 Source:
