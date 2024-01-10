@@ -12,7 +12,7 @@ y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \bet
 
 ```
 
-where $y_{it}$ denotes the number of judgments in area $i$ and year $t$, **$x_{i}$** refers to a vector of area fixed effects, the $\beta$s represent the model parameters to be estimated, and $epsilon_{it}$ denotes the error term.
+where $y_{it}$ denotes the number of judgments in area $i$ and year $t$, __**$x_{i}$__ refers to a vector of area fixed effects, the $\beta$ coefficients represent the model parameters to be estimated, and $epsilon_{it}$ denotes the error term.
 
 Source:
 (1) https://eur-lex.europa.eu/browse/directories/new-case-law.html
