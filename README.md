@@ -8,7 +8,7 @@ The data are split into training (2010-2020) and test (2021-2023) sets, in order
 
 ```math
 
-y_i 
+y_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \ldots + \beta_k x_{ik} + \alpha_1 t_i + \alpha_2 t_i^2 + \ldots + \alpha_p t_i^p + \epsilon_i
 
 ```
 
