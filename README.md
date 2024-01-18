@@ -10,7 +10,7 @@ The model can be represented mathematically as follows:
 
 ```math
 
-y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \beta_4 y_{it-4} + \beta_5 y_{it-5} + \beta_6 z_{t} + \beta_7 z_{t-1} + \beta_8 y_{t-2} + \beta_9 y_{t-3} + \beta_10 y_{t-4} + \beta_11 y_{t-5} + \beta_{12i} x_{i} + \epsilon_{it}
+y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \beta_4 y_{it-4} + \beta_5 y_{it-5} + \beta_6 z_{t} + \beta_7 z_{t-1} + \beta_8 z_{t-2} + \beta_9 z_{t-3} + \beta_{10} z_{t-4} + \beta_11 z_{t-5} + \beta_{12i} x_{i} + \epsilon_{it}
 
 ```
 
