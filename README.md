@@ -1,4 +1,4 @@
-# case_law_trends
+# Trends in CJEU case load
 
 Applies a linear autoregression model to predict trends concerning the development of case-law by the Court of Justice of the European Union (CJEU). 
 
