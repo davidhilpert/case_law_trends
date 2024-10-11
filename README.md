@@ -10,11 +10,19 @@ The model can be represented mathematically as follows:
 
 ```math
 
-y_{it} = \beta_0 + \beta_1 y_{it-1} + \beta_2 y_{it-2} + \beta_3 y_{it-3} + \beta_4 y_{it-4} + \beta_5 y_{it-5} + \beta_6 z_{t} + \beta_7 z_{t-1} + \beta_8 z_{t-2} + \beta_9 z_{t-3} + \beta_{10} z_{t-4} + \beta_{11} z_{t-5} + \beta_{12i} x_{i} + \epsilon_{it}
+\mathbf{y}_t = \beta_0 + \mathbf{Y}_{t-1:t-5} \mathbf{\beta_{1:5}} + \mathbf{Z}_{t-1:t-5} \mathbf{\beta_{6:10}} + \mathbf{X} \mathbf{\beta_{12}} + \boldsymbol{\epsilon}_t
 
 ```
 
-where $y_{it}$ denotes the number of judgments in area $i$ and year $t$, $z_{it}$ denotes the number of legal acts adopted in year $t$, $x_{i}$ refers to a vector of area fixed effects, the $\beta$ coefficients represent the model parameters to be estimated, and $\epsilon_{it}$ denotes the error term.
+Where:
+$\mathbf{y}_t$
+
+- $\mathbf{y}_t$ is a vector of response variables for all entities at time \(t\).
+- $\mathbf{Y}$ is a matrix of lagged values $y_{it-1}, y_{it-2}, \dots, y_{it-5}$.
+- $\mathbf{Z}$ is a matrix of lagged external variables $z_{t-1}, z_{t-2}, \dots, z_{t-5}$.
+- $\mathbf{X}$ is a matrix of entity-specific features \(x_i\).
+- $\mathbf{\beta_{1:5}}, \mathbf{\beta_{6:10}}, \mathbf{\beta_{12}}$ are vectors of corresponding coefficients.
+- $\boldsymbol{\epsilon}_t$ is the error term vector.
 
 Sources:
 
